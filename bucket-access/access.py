@@ -1,11 +1,11 @@
 import boto3
 
 # Substitua 'YOUR_ACCESS_KEY_ID' e 'YOUR_SECRET_ACCESS_KEY' com suas credenciais da AWS
-ACCESS_KEY_ID = 'AKIA6F2IOVESFG57FBEZ'
-SECRET_ACCESS_KEY = '4t+z/HFvjVPbTIFOWUnofJ48fm3v3OdlX3AWTJmi'
+ACCESS_KEY_ID = 'YOUR_ACCESS_KEY_ID'
+SECRET_ACCESS_KEY = 'YOUR_SECRET_ACCESS_KEY'
 
 # Substitua 'YOUR_BUCKET_NAME' com o nome do seu bucket
-BUCKET_NAME = 's3-platform-cessao'
+BUCKET_NAME = 'YOUR_BUCKET_NAME'
 
 def list_objects():
     # Inicialize o cliente S3 com suas credenciais
